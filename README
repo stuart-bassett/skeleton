@@ -1,0 +1,47 @@
+==============================================================================
+
+Skeleton: A simple autoconfiscated package, useful for bootstrapping
+GNU autotools packages.
+
+==============================================================================
+
+Copyright (C) 2015 Stuart Bassett <stuart21295@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the license, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses>.
+
+==============================================================================
+
+This README is for Skeleton 1.0.0
+
+Skeleton is a package that contains a simple but functional configuration
+for autoconf, automake, libtool, and gettext.
+
+Skeleton is developed and distributed in the hope that it will allow authors
+of free software to use autoconf, automake, libtool, and gettext for their
+package without going through boring and complicated setup steps. Just add new
+files to the relevant Makefile.am.
+
+This version of Skeleton contains everything needed to build a simple
+program, skeleton. It has already been configured with autoconf and automake.
+When make is invoked, skeleton will be built, along with the libtool library
+libskeleton. Skeleton calls hello_world in libskeleton, which outputs a
+greeting from libskeleton which is translated by gettext.
+
+Also included in this package is a copy of the GNU General Public License,
+the GNU Free Documentation License, and a standard disclaimer in both
+plaintext and c-style comment form.
+
+Please remember to change configure.ac to have details of YOUR package.
+
+==============================================================================

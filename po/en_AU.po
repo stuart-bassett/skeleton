@@ -1,0 +1,35 @@
+# English translations for skeleton package.
+# Copyright (C) 2015 Stuart Bassett
+# This file is distributed under the same license as the skeleton package.
+# Stuart <stuart21295@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: skeleton 1.0.0\n"
+"Report-Msgid-Bugs-To: stuart21295@gmail.com\n"
+"POT-Creation-Date: 2015-10-07 00:06+1100\n"
+"PO-Revision-Date: 2015-10-05 02:16+1100\n"
+"Last-Translator: Stuart <stuart21295@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en_AU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/main.c:37
+msgid "usage:"
+msgstr "usage:"
+
+#: src/main.c:38
+msgid ""
+"--help, -h           print this text\n"
+"--version, -v        print the package version"
+msgstr ""
+"--help, -h           print this text\n"
+"--version, -v        print the package version"
+
+#: lib/skeleton.c:25
+#, c-format
+msgid "Hello from %s.\n"
+msgstr "G'day from %s.\n"
